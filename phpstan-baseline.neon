@@ -1,0 +1,351 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Method BombenProdukt\\\\Hestia\\\\Concerns\\\\HasTeamsInterface\\:\\:allTeams\\(\\) return type with generic class Illuminate\\\\Support\\\\Collection does not specify its types\\: TKey, TValue$#"
+			count: 1
+			path: src/Concerns/HasTeamsInterface.php
+
+		-
+			message: "#^Method BombenProdukt\\\\Hestia\\\\Concerns\\\\HasTeamsInterface\\:\\:currentTeam\\(\\) return type with generic class Illuminate\\\\Database\\\\Eloquent\\\\Relations\\\\BelongsTo does not specify its types\\: TRelatedModel, TChildModel$#"
+			count: 1
+			path: src/Concerns/HasTeamsInterface.php
+
+		-
+			message: "#^Method BombenProdukt\\\\Hestia\\\\Concerns\\\\HasTeamsInterface\\:\\:ownedTeams\\(\\) return type with generic class Illuminate\\\\Database\\\\Eloquent\\\\Relations\\\\HasMany does not specify its types\\: TRelatedModel$#"
+			count: 1
+			path: src/Concerns/HasTeamsInterface.php
+
+		-
+			message: "#^Method BombenProdukt\\\\Hestia\\\\Concerns\\\\HasTeamsInterface\\:\\:teams\\(\\) return type with generic class Illuminate\\\\Database\\\\Eloquent\\\\Relations\\\\BelongsToMany does not specify its types\\: TRelatedModel$#"
+			count: 1
+			path: src/Concerns/HasTeamsInterface.php
+
+		-
+			message: "#^Method BombenProdukt\\\\Hestia\\\\Configuration\\\\Eloquent\\:\\:membershipModel\\(\\) should return string but returns mixed\\.$#"
+			count: 1
+			path: src/Configuration/Eloquent.php
+
+		-
+			message: "#^Method BombenProdukt\\\\Hestia\\\\Configuration\\\\Eloquent\\:\\:teamInvitationModel\\(\\) should return string but returns mixed\\.$#"
+			count: 1
+			path: src/Configuration/Eloquent.php
+
+		-
+			message: "#^Method BombenProdukt\\\\Hestia\\\\Configuration\\\\Eloquent\\:\\:teamModel\\(\\) should return string but returns mixed\\.$#"
+			count: 1
+			path: src/Configuration/Eloquent.php
+
+		-
+			message: "#^Method BombenProdukt\\\\Hestia\\\\Configuration\\\\Eloquent\\:\\:userModel\\(\\) should return string but returns mixed\\.$#"
+			count: 1
+			path: src/Configuration/Eloquent.php
+
+		-
+			message: "#^Access to an undefined property BombenProdukt\\\\Hestia\\\\Models\\\\TeamInvitation\\:\\:\\$email\\.$#"
+			count: 1
+			path: src/Features/AcceptTeamInvitation/AcceptTeamInvitation.php
+
+		-
+			message: "#^Access to an undefined property BombenProdukt\\\\Hestia\\\\Models\\\\TeamInvitation\\:\\:\\$role\\.$#"
+			count: 1
+			path: src/Features/AcceptTeamInvitation/AcceptTeamInvitation.php
+
+		-
+			message: "#^Cannot access property \\$owner on Illuminate\\\\Database\\\\Eloquent\\\\Model\\|null\\.$#"
+			count: 1
+			path: src/Features/AcceptTeamInvitation/AcceptTeamInvitation.php
+
+		-
+			message: "#^Parameter \\#2 \\$team of method BombenProdukt\\\\Hestia\\\\Features\\\\AcceptTeamInvitation\\\\AcceptTeamInvitation\\:\\:addTeamMember\\(\\) expects BombenProdukt\\\\Hestia\\\\Models\\\\Team, Illuminate\\\\Database\\\\Eloquent\\\\Model\\|null given\\.$#"
+			count: 1
+			path: src/Features/AcceptTeamInvitation/AcceptTeamInvitation.php
+
+		-
+			message: "#^Call to an undefined method Illuminate\\\\Http\\\\RedirectResponse\\:\\:banner\\(\\)\\.$#"
+			count: 1
+			path: src/Features/AcceptTeamInvitation/AcceptTeamInvitationResponse.php
+
+		-
+			message: "#^Call to protected static method resolve\\(\\) of class Illuminate\\\\Foundation\\\\Application\\.$#"
+			count: 1
+			path: src/Features/CreateTeam/CreateTeam.php
+
+		-
+			message: "#^Method BombenProdukt\\\\Hestia\\\\Features\\\\CreateTeam\\\\CreateTeam\\:\\:__invoke\\(\\) should return BombenProdukt\\\\Hestia\\\\Features\\\\CreateTeam\\\\CreateTeamResponseInterface but returns mixed\\.$#"
+			count: 1
+			path: src/Features/CreateTeam/CreateTeam.php
+
+		-
+			message: "#^Method BombenProdukt\\\\Hestia\\\\Features\\\\CreateTeam\\\\CreateTeamResponse\\:\\:toResponse\\(\\) should return Symfony\\\\Component\\\\HttpFoundation\\\\Response but returns Inertia\\\\Response\\.$#"
+			count: 1
+			path: src/Features/CreateTeam/CreateTeamResponse.php
+
+		-
+			message: "#^Parameter \\#1 \\$user of callable BombenProdukt\\\\Hestia\\\\Features\\\\DeleteTeam\\\\DeleteTeamInterface expects BombenProdukt\\\\Hestia\\\\Concerns\\\\HasTeamsInterface, Illuminate\\\\Foundation\\\\Auth\\\\User\\|null given\\.$#"
+			count: 1
+			path: src/Features/DeleteTeam/DeleteTeamController.php
+
+		-
+			message: "#^Access to an undefined property BombenProdukt\\\\Hestia\\\\Concerns\\\\HasTeamsInterface\\:\\:\\$id\\.$#"
+			count: 3
+			path: src/Features/DeleteTeamMember/DeleteTeamMember.php
+
+		-
+			message: "#^Cannot access property \\$id on Illuminate\\\\Database\\\\Eloquent\\\\Model\\|null\\.$#"
+			count: 1
+			path: src/Features/DeleteTeamMember/DeleteTeamMember.php
+
+		-
+			message: "#^Parameter \\#1 \\$user of callable BombenProdukt\\\\Hestia\\\\Features\\\\DeleteTeamMember\\\\DeleteTeamMemberInterface expects BombenProdukt\\\\Hestia\\\\Concerns\\\\HasTeamsInterface, Illuminate\\\\Foundation\\\\Auth\\\\User\\|null given\\.$#"
+			count: 1
+			path: src/Features/DeleteTeamMember/DeleteTeamMemberController.php
+
+		-
+			message: "#^Access to an undefined property BombenProdukt\\\\Hestia\\\\Concerns\\\\HasTeamsInterface\\:\\:\\$id\\.$#"
+			count: 1
+			path: src/Features/DeleteTeamMember/DeleteTeamMemberResponse.php
+
+		-
+			message: "#^Cannot access property \\$id on mixed\\.$#"
+			count: 1
+			path: src/Features/DeleteTeamMember/DeleteTeamMemberResponse.php
+
+		-
+			message: "#^Parameter \\#1 \\$path of static method Illuminate\\\\Support\\\\Facades\\\\Redirect\\:\\:to\\(\\) expects string, mixed given\\.$#"
+			count: 1
+			path: src/Features/DeleteTeamMember/DeleteTeamMemberResponse.php
+
+		-
+			message: "#^Access to an undefined property BombenProdukt\\\\Hestia\\\\Models\\\\Team\\:\\:\\$id\\.$#"
+			count: 1
+			path: src/Features/InviteTeamMember/InviteTeamMember.php
+
+		-
+			message: "#^Parameter \\#1 \\$invitation of class BombenProdukt\\\\Hestia\\\\Mail\\\\TeamInvitation constructor expects BombenProdukt\\\\Hestia\\\\Models\\\\TeamInvitation, Illuminate\\\\Database\\\\Eloquent\\\\Model given\\.$#"
+			count: 1
+			path: src/Features/InviteTeamMember/InviteTeamMember.php
+
+		-
+			message: "#^Parameter \\#3 \\$role of event class BombenProdukt\\\\Hestia\\\\Events\\\\InvitingTeamMember constructor expects string in BombenProdukt\\\\Hestia\\\\Events\\\\InvitingTeamMember\\:\\:dispatch\\(\\), string\\|null given\\.$#"
+			count: 1
+			path: src/Features/InviteTeamMember/InviteTeamMember.php
+
+		-
+			message: "#^Parameter \\#1 \\$user of callable BombenProdukt\\\\Hestia\\\\Features\\\\InviteTeamMember\\\\InviteTeamMemberInterface expects BombenProdukt\\\\Hestia\\\\Concerns\\\\HasTeamsInterface, Illuminate\\\\Foundation\\\\Auth\\\\User\\|null given\\.$#"
+			count: 1
+			path: src/Features/InviteTeamMember/InviteTeamMemberController.php
+
+		-
+			message: "#^Parameter \\#3 \\$email of callable BombenProdukt\\\\Hestia\\\\Features\\\\InviteTeamMember\\\\InviteTeamMemberInterface expects string, mixed given\\.$#"
+			count: 1
+			path: src/Features/InviteTeamMember/InviteTeamMemberController.php
+
+		-
+			message: "#^Parameter \\#4 \\$role of callable BombenProdukt\\\\Hestia\\\\Features\\\\InviteTeamMember\\\\InviteTeamMemberInterface expects string\\|null, mixed given\\.$#"
+			count: 1
+			path: src/Features/InviteTeamMember/InviteTeamMemberController.php
+
+		-
+			message: "#^Parameter \\#1 \\$user of callable BombenProdukt\\\\Hestia\\\\Features\\\\RejectTeamInvitation\\\\RejectTeamInvitationInterface expects BombenProdukt\\\\Hestia\\\\Concerns\\\\HasTeamsInterface, Illuminate\\\\Foundation\\\\Auth\\\\User\\|null given\\.$#"
+			count: 1
+			path: src/Features/RejectTeamInvitation/RejectTeamInvitationController.php
+
+		-
+			message: "#^Return type \\(Inertia\\\\Response\\) of method BombenProdukt\\\\Hestia\\\\Features\\\\ShowTeam\\\\ShowTeamResponse\\:\\:toResponse\\(\\) should be compatible with return type \\(Symfony\\\\Component\\\\HttpFoundation\\\\Response\\) of method Illuminate\\\\Contracts\\\\Support\\\\Responsable\\:\\:toResponse\\(\\)$#"
+			count: 2
+			path: src/Features/ShowTeam/ShowTeamResponse.php
+
+		-
+			message: "#^Parameter \\#1 \\$team of method BombenProdukt\\\\Hestia\\\\Concerns\\\\HasTeamsInterface\\:\\:switchTeam\\(\\) expects BombenProdukt\\\\Hestia\\\\Models\\\\Team, Illuminate\\\\Database\\\\Eloquent\\\\Model given\\.$#"
+			count: 1
+			path: src/Features/StoreTeam/StoreTeam.php
+
+		-
+			message: "#^Parameter \\#1 \\$user of callable BombenProdukt\\\\Hestia\\\\Features\\\\StoreTeam\\\\StoreTeamInterface expects BombenProdukt\\\\Hestia\\\\Concerns\\\\HasTeamsInterface, Illuminate\\\\Foundation\\\\Auth\\\\User\\|null given\\.$#"
+			count: 1
+			path: src/Features/StoreTeam/StoreTeamController.php
+
+		-
+			message: "#^Return type \\(BombenProdukt\\\\Hestia\\\\Models\\\\Team\\) of method BombenProdukt\\\\Hestia\\\\Features\\\\StoreTeam\\\\StoreTeamResponse\\:\\:toResponse\\(\\) should be compatible with return type \\(Symfony\\\\Component\\\\HttpFoundation\\\\Response\\) of method Illuminate\\\\Contracts\\\\Support\\\\Responsable\\:\\:toResponse\\(\\)$#"
+			count: 2
+			path: src/Features/StoreTeam/StoreTeamResponse.php
+
+		-
+			message: "#^Parameter \\#1 \\$boolean of function abort_unless expects bool, int given\\.$#"
+			count: 1
+			path: src/Features/SwitchTeam/SwitchTeam.php
+
+		-
+			message: "#^Parameter \\#2 \\$code of function abort_unless expects Illuminate\\\\Contracts\\\\Support\\\\Responsable\\|int\\|Symfony\\\\Component\\\\HttpFoundation\\\\Response, bool given\\.$#"
+			count: 1
+			path: src/Features/SwitchTeam/SwitchTeam.php
+
+		-
+			message: "#^Parameter \\#1 \\$user of callable BombenProdukt\\\\Hestia\\\\Features\\\\SwitchTeam\\\\SwitchTeamInterface expects BombenProdukt\\\\Hestia\\\\Concerns\\\\HasTeamsInterface, Illuminate\\\\Foundation\\\\Auth\\\\User\\|null given\\.$#"
+			count: 1
+			path: src/Features/SwitchTeam/SwitchTeamController.php
+
+		-
+			message: "#^Parameter \\#2 \\$teamId of callable BombenProdukt\\\\Hestia\\\\Features\\\\SwitchTeam\\\\SwitchTeamInterface expects int, mixed given\\.$#"
+			count: 1
+			path: src/Features/SwitchTeam/SwitchTeamController.php
+
+		-
+			message: "#^Parameter \\#1 \\$team of event class BombenProdukt\\\\Hestia\\\\Events\\\\TeamMemberUpdated constructor expects BombenProdukt\\\\Hestia\\\\Models\\\\Team in BombenProdukt\\\\Hestia\\\\Events\\\\TeamMemberUpdated\\:\\:dispatch\\(\\), BombenProdukt\\\\Hestia\\\\Models\\\\Team\\|null given\\.$#"
+			count: 1
+			path: src/Features/UpdateTeamMemberRole/UpdateTeamMemberRole.php
+
+		-
+			message: "#^Parameter \\#1 \\$user of callable BombenProdukt\\\\Hestia\\\\Features\\\\UpdateTeamMemberRole\\\\UpdateTeamMemberRoleInterface expects BombenProdukt\\\\Hestia\\\\Concerns\\\\HasTeamsInterface, Illuminate\\\\Foundation\\\\Auth\\\\User\\|null given\\.$#"
+			count: 1
+			path: src/Features/UpdateTeamMemberRole/UpdateTeamMemberRoleController.php
+
+		-
+			message: "#^Parameter \\#4 \\$role of callable BombenProdukt\\\\Hestia\\\\Features\\\\UpdateTeamMemberRole\\\\UpdateTeamMemberRoleInterface expects string, mixed given\\.$#"
+			count: 1
+			path: src/Features/UpdateTeamMemberRole/UpdateTeamMemberRoleController.php
+
+		-
+			message: "#^Parameter \\#1 \\$user of callable BombenProdukt\\\\Hestia\\\\Features\\\\UpdateTeamName\\\\UpdateTeamNameInterface expects BombenProdukt\\\\Hestia\\\\Concerns\\\\HasTeamsInterface, Illuminate\\\\Foundation\\\\Auth\\\\User\\|null given\\.$#"
+			count: 1
+			path: src/Features/UpdateTeamName/UpdateTeamNameController.php
+
+		-
+			message: "#^Access to an undefined property Illuminate\\\\Foundation\\\\Auth\\\\User\\:\\:\\$current_team_id\\.$#"
+			count: 1
+			path: src/Http/Middleware/SetPermissionsTeamId.php
+
+		-
+			message: "#^Method BombenProdukt\\\\Hestia\\\\Http\\\\Middleware\\\\SetPermissionsTeamId\\:\\:handle\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Http/Middleware/SetPermissionsTeamId.php
+
+		-
+			message: "#^Access to an undefined property BombenProdukt\\\\Hestia\\\\Concerns\\\\HasTeamsInterface\\:\\:\\$current_team_id\\.$#"
+			count: 1
+			path: src/Models/Team.php
+
+		-
+			message: "#^Access to an undefined property BombenProdukt\\\\Hestia\\\\Models\\\\Team\\:\\:\\$id\\.$#"
+			count: 3
+			path: src/Models/Team.php
+
+		-
+			message: "#^Call to an undefined method BombenProdukt\\\\Hestia\\\\Concerns\\\\HasTeamsInterface\\:\\:forceFill\\(\\)\\.$#"
+			count: 1
+			path: src/Models/Team.php
+
+		-
+			message: "#^Dynamic call to static method Illuminate\\\\Database\\\\Eloquent\\\\Relations\\\\BelongsTo\\<Illuminate\\\\Database\\\\Eloquent\\\\Model,Illuminate\\\\Database\\\\Eloquent\\\\Model\\>\\:\\:update\\(\\)\\.$#"
+			count: 1
+			path: src/Models/Team.php
+
+		-
+			message: "#^Dynamic call to static method Illuminate\\\\Database\\\\Eloquent\\\\Relations\\\\BelongsTo\\<Illuminate\\\\Database\\\\Eloquent\\\\Model,Illuminate\\\\Database\\\\Eloquent\\\\Model\\>\\:\\:where\\(\\)\\.$#"
+			count: 1
+			path: src/Models/Team.php
+
+		-
+			message: "#^Dynamic call to static method Illuminate\\\\Database\\\\Eloquent\\\\Relations\\\\BelongsToMany\\<Illuminate\\\\Database\\\\Eloquent\\\\Model\\>\\:\\:update\\(\\)\\.$#"
+			count: 1
+			path: src/Models/Team.php
+
+		-
+			message: "#^Dynamic call to static method Illuminate\\\\Database\\\\Eloquent\\\\Relations\\\\BelongsToMany\\<Illuminate\\\\Database\\\\Eloquent\\\\Model\\>\\:\\:where\\(\\)\\.$#"
+			count: 1
+			path: src/Models/Team.php
+
+		-
+			message: "#^Method BombenProdukt\\\\Hestia\\\\Models\\\\Team\\:\\:allUsers\\(\\) return type with generic class Illuminate\\\\Support\\\\Collection does not specify its types\\: TKey, TValue$#"
+			count: 1
+			path: src/Models/Team.php
+
+		-
+			message: "#^Method BombenProdukt\\\\Hestia\\\\Models\\\\Team\\:\\:owner\\(\\) return type with generic class Illuminate\\\\Database\\\\Eloquent\\\\Relations\\\\BelongsTo does not specify its types\\: TRelatedModel, TChildModel$#"
+			count: 1
+			path: src/Models/Team.php
+
+		-
+			message: "#^Method BombenProdukt\\\\Hestia\\\\Models\\\\Team\\:\\:teamInvitations\\(\\) return type with generic class Illuminate\\\\Database\\\\Eloquent\\\\Relations\\\\HasMany does not specify its types\\: TRelatedModel$#"
+			count: 1
+			path: src/Models/Team.php
+
+		-
+			message: "#^Method BombenProdukt\\\\Hestia\\\\Models\\\\Team\\:\\:users\\(\\) return type with generic class Illuminate\\\\Database\\\\Eloquent\\\\Relations\\\\BelongsToMany does not specify its types\\: TRelatedModel$#"
+			count: 1
+			path: src/Models/Team.php
+
+		-
+			message: "#^Parameter \\#1 \\$items of method Illuminate\\\\Database\\\\Eloquent\\\\Collection\\<int,Illuminate\\\\Database\\\\Eloquent\\\\Model\\>\\:\\:merge\\(\\) expects iterable\\<\\(int\\|string\\), Illuminate\\\\Database\\\\Eloquent\\\\Model\\>, array\\<int, Illuminate\\\\Database\\\\Eloquent\\\\Model\\|null\\> given\\.$#"
+			count: 1
+			path: src/Models/Team.php
+
+		-
+			message: "#^Parameter \\#1 \\$key of method Illuminate\\\\Database\\\\Eloquent\\\\Collection\\<int,Illuminate\\\\Database\\\\Eloquent\\\\Model\\>\\:\\:contains\\(\\) expects \\(callable\\(Illuminate\\\\Database\\\\Eloquent\\\\Model, int\\)\\: bool\\)\\|Illuminate\\\\Database\\\\Eloquent\\\\Model\\|int\\|string, BombenProdukt\\\\Hestia\\\\Concerns\\\\HasTeamsInterface given\\.$#"
+			count: 1
+			path: src/Models/Team.php
+
+		-
+			message: "#^Method BombenProdukt\\\\Hestia\\\\Models\\\\TeamInvitation\\:\\:team\\(\\) return type with generic class Illuminate\\\\Database\\\\Eloquent\\\\Relations\\\\BelongsTo does not specify its types\\: TRelatedModel, TChildModel$#"
+			count: 1
+			path: src/Models/TeamInvitation.php
+
+		-
+			message: "#^PHPDoc type array of property BombenProdukt\\\\Hestia\\\\Models\\\\TeamInvitation\\:\\:\\$fillable is not the same as PHPDoc type array\\<string\\> of overridden property Illuminate\\\\Database\\\\Eloquent\\\\Model\\:\\:\\$fillable\\.$#"
+			count: 1
+			path: src/Models/TeamInvitation.php
+
+		-
+			message: "#^Argument of an invalid type mixed supplied for foreach, only iterables are supported\\.$#"
+			count: 1
+			path: src/ServiceProvider.php
+
+		-
+			message: "#^Cannot access offset 'action' on mixed\\.$#"
+			count: 1
+			path: src/ServiceProvider.php
+
+		-
+			message: "#^Cannot access offset 'method' on mixed\\.$#"
+			count: 1
+			path: src/ServiceProvider.php
+
+		-
+			message: "#^Cannot access offset 'middleware' on mixed\\.$#"
+			count: 2
+			path: src/ServiceProvider.php
+
+		-
+			message: "#^Cannot access offset 'name' on mixed\\.$#"
+			count: 1
+			path: src/ServiceProvider.php
+
+		-
+			message: "#^Cannot access offset 'path' on mixed\\.$#"
+			count: 1
+			path: src/ServiceProvider.php
+
+		-
+			message: "#^Parameter \\#1 \\$methods of static method Illuminate\\\\Support\\\\Facades\\\\Route\\:\\:match\\(\\) expects array\\|string, mixed given\\.$#"
+			count: 1
+			path: src/ServiceProvider.php
+
+		-
+			message: "#^Parameter \\#1 \\$middleware of method Illuminate\\\\Routing\\\\Route\\:\\:middleware\\(\\) expects array\\<string\\>\\|string\\|null, mixed given\\.$#"
+			count: 1
+			path: src/ServiceProvider.php
+
+		-
+			message: "#^Parameter \\#1 \\$name of method Illuminate\\\\Routing\\\\Route\\:\\:name\\(\\) expects string, mixed given\\.$#"
+			count: 1
+			path: src/ServiceProvider.php
+
+		-
+			message: "#^Parameter \\#2 \\$uri of static method Illuminate\\\\Support\\\\Facades\\\\Route\\:\\:match\\(\\) expects string, mixed given\\.$#"
+			count: 1
+			path: src/ServiceProvider.php
+
+		-
+			message: "#^Parameter \\#3 \\$action of static method Illuminate\\\\Support\\\\Facades\\\\Route\\:\\:match\\(\\) expects array\\|\\(callable\\(\\)\\: mixed\\)\\|string\\|null, mixed given\\.$#"
+			count: 1
+			path: src/ServiceProvider.php
