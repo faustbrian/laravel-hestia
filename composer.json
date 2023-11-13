@@ -21,7 +21,7 @@
     "illuminate/contracts": "^10.0",
     "inertiajs/inertia-laravel": "^0.6.9",
     "laravel/sanctum": "^3.2",
-    "spatie/laravel-permission": "^5.10"
+    "spatie/laravel-permission": "^6.1"
   },
   "require-dev": {
     "bombenprodukt/php-cs-fixer-config": "^1.0",
